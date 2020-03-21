@@ -8,7 +8,24 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
-		int num = 0;
+		int num = 25;
+		
+		Random rand = new Random();
+		
+		int randomNumber= rand.nextInt(11);
+		
+		System.out.println(randomNumber);
+		
+		int n= (rand.nextInt(75-25) +1) +25;
+		
+		System.out.println(n);
+		
+		//((highest value - lowest value)+1) + lowest value
+		
+		int esketit= (rand.nextInt(88+22) +1) -222;
+		
+		System.out.println(esketit);
+		
 		
 		//3   Now to make num random. 
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()

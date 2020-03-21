@@ -78,10 +78,11 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 
         //2. Change the value of opponentSelection to be a random number between 0 and 2;
 	//   Don't forget to create a Random object.
-	    
+	   Int n = 0
+    	opponentSelection ran number=randomnumber Int(3)
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
         int opponentSelection = 0;
-        
+        ran number=randomNumber(3);
         //3. Run the program again. Is the result different?
  
         int selection = 0;
