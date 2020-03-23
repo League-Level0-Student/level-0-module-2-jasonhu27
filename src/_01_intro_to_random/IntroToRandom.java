@@ -8,7 +8,7 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
-		int num = 25;
+		int num = 0;
 		
 		Random rand = new Random();
 		
