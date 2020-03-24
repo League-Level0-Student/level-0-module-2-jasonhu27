@@ -20,7 +20,7 @@ public class Magic8Ball {
 
 	// 5. If the random number is 0
 
-	// -- tell the user "Yes"
+	// -- tell the user "Yes" 
 
 	// 6. If the random number is 1
 
@@ -37,25 +37,25 @@ public static void main(String[] args) {
 	int num = 0;
 	Random rand = new Random();
 	
-	int n = new Random().nextInt(4);
+	int n = new Random().nextInt(4); 
 	
 	System.out.println(n);
 	
-	JOptionPane.showInternalMessageDialog(null, "Ask a question");
-	if int random number = 0
+	JOptionPane.showInputDialog("Enter a question for the 8 ball");
+	if (n == 0) {
 	
-			System.out.println("Yes");
+			System.out.println("Yes"); }
 	
-	if int n num= 1 
+	if (n == 1) { 
 	
-			System.out.println("no");
-	if int num Random rand= 2
+			System.out.println("no"); }
+	if (n == 2) {
 	
-			System.out.println("Maybe you should ask Google?");
+			System.out.println("Maybe you should ask Google?"); }
 	
-	if int numberRandom = 3 
+	if (n == 3) {
 	
-			System.out.println("Esketit man");
+			System.out.println("The world may never know"); }
 		
 }
 }
