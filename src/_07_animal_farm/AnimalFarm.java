@@ -37,6 +37,7 @@ if (LOB.contentEquals("dog")) {
  	}
 	
 }
+	//esketit the content equals so tehrefore im the goat
 
 	static void playMoo() {
 		playNoise(mooFile);
